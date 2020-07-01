@@ -1,22 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Gianluca Martino</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!--
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171467621-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-171467621-1');
+        </script>
+        -->
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Gianluca Martino</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h2 class="mb-3">
+                        Gianluca Martino
+                        <!--<span class="text-primary">Martino</span>-->
+                    </h2>
+                    <div class="subheading mb-5">
+                        <p class="small">
+                          Institute of Embedded Systems<br>
+                          Building E, Room 2.089<br>
+                          Hamburg University of Technology (TUHH)<br>
+                          Am Schwarzenberg-Campus 3<br>
+                          21073 Hamburg, Germany
+                        </p>
+                    </div>
+                    <div class="social-icons">
+                        <a class="social-icon" href="mailto:gianluca.martino@tuhh.de"><i class="fas fa-envelope"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/gianlucamartino"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/gian21391/"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://orcid.org/0000-0002-7838-3844"><i class="fab fa-orcid"></i></a>
+                        <a class="social-icon" href="https://www.tuhh.de/es/"><i class="fas fa-university"></i></a>
+                        <a class="social-icon" href="https://www.desy.de/"><i class="fas fa-flask"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Publications-->
+            <section class="resume-section" id="publications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Publications</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-2">Conference Papers</h3>
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                <b>Gianluca Martino</b>, Heinz Riener, and Görschwin Fey,
+                                <b>Revisiting Explicit Enumeration for Exact Synthesis</b>,
+                                In <i>Euromicro Conference on Digital System Design (DSD)</i>,
+                                Portorož, Slovenia, 2020.
+                              </li>
+                              <li class="list-group-item">
+                                <b>Gianluca Martino</b> and Görschwin Fey,
+                                <b>Syntax-Guided Enumeration of Temporal Properties</b>,
+                                In <i>Forum for Specification and Design Languages (FDL)</i>,
+                                pp. 1-8, Southampton, United Kingdom, 2019.
+                                (<a target="_blank" href="https://ieeexplore.ieee.org/document/8876892">IEEEXplore</a>,
+                                 <a target="_blank" href="#">PDF</a>)
+                              </li>
+                              <li class="list-group-item">
+                                Goerschwin Fey, Tara Ghasempouri, Swen Jacobs, <b>Gianluca Martino</b>, Jaan Raik, Heinz Riener,
+                                <b>Design Understanding: From Logic to Specification (special session)</b>,
+                                In <i>26th IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC)</i>,
+                                pp. 172-175, Verona, Italy, 2018.
+                                (<a target="_blank" href="https://ieeexplore.ieee.org/document/8644732">IEEEXplore</a>,
+                                 <a target="_blank" href="#">PDF</a>)
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-2">Workshop Papers</h3>
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                <b>Gianluca Martino</b>, Heinz Riener, Görschwin Fey,
+                                <b>Complete Specification Mining</b>,
+                                In <i>6th Workshop on Design Automation for Understanding Hardware Designs (DUHDE)</i>,
+                                Florence, Italy, 2019.
+                              </li>
+                              <li class="list-group-item">
+                                <b>Gianluca Martino</b>, Heinz Riener, Görschwin Fey,
+                                <b>Coverage-Guided CTL Property Enumeration for Understanding Models of Reactive Systems</b>,
+                                In <i>27th International Workshop on Logic &amp; Synthesis (IWLS)</i>,
+                                San Francisco, CA, USA, 2018.
+                                (<a target="_blank" href="https://github.com/hriener/behemoth">GitHub</a>)
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
