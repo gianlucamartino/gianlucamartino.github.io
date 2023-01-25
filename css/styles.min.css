@@ -44,7 +44,7 @@
   src: url(https://fonts.gstatic.com/s/muli/v28/7Aulp_0qiz-aVz7u3PJLcUMYOFlOl0k30e0.ttf) format('truetype');
 }
  
-/*** uncss> filename: https://gianlucamartino.github.io/css/styles.css ***/
+/*** uncss> filename: css/styles.css ***/
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Resume v6.0.1 (https://startbootstrap.com/template-overviews/resume)
@@ -63,7 +63,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #bd5d38;
+  --orange: #b95b37;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -71,7 +71,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bd5d38;
+  --primary: #b95b37;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -101,7 +101,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-nav, section {
+main, nav, section {
   display: block;
 }
 
@@ -126,7 +126,7 @@ hr {
   overflow: visible;
 }
 
-h2, h3 {
+h1, h2, h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -146,8 +146,8 @@ b {
 }
 
 a {
-  color: #bd5d38;
-  text-decoration: none;
+  color: #b95b37;
+  text-decoration: underline;
   background-color: transparent;
 }
 a:hover {
@@ -207,12 +207,16 @@ button::-moz-focus-inner,
   -webkit-appearance: button;
 }
 
-h2, h3 {
+h1, h2, h3 {
   margin-bottom: 0.5rem;
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 h2 {
@@ -388,8 +392,8 @@ hr {
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active {
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #b95b37;
+  border-color: #b95b37;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus {
   box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
@@ -458,6 +462,7 @@ hr {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -600,7 +605,7 @@ hr {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #b95b37 !important;
 }
 
 .rounded {
@@ -754,9 +759,14 @@ body {
     padding-left: 17rem;
   }
 }
+h1,
 h2,
 h3 {
   text-transform: uppercase;
+}
+
+h1 {
+  line-height: 1;
 }
 
 .subheading {
@@ -830,7 +840,7 @@ h3 {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #b95b37;
 }
 
 section.resume-section {
