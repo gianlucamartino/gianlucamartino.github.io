@@ -1,3 +1,9 @@
+title: Gianluca Martino
+description: Gianluca Martino's personal website homepage.
+author: Gianluca Martino
+url: "https://gianlucamartino.github.io"
+github_username: gian21391
+
 collections:
   publications:
     output: true
