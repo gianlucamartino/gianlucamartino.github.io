@@ -6,6 +6,7 @@ gem "github-pages", "~> 231"
 gem "webrick", "~> 1.8"
 gem "bootstrap", "~> 5.3"
 gem "wdm", "~> 0.1.1"
+gem "csv"
 
 group :jekyll_plugins do
     gem "jekyll-sitemap"
